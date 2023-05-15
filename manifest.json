@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Github following tab as default",
+  "version": "1.0",
+
+    "description": "When entering Github, the \"following\" tab will be selected instead of the \"For you\" tab to avoid distractions",
+
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/"],
+      "js": ["main.min.js"]
+    }
+  ]
+}
