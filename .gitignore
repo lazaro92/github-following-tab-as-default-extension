@@ -1,4 +1,4 @@
-.zip
-.xpi
+*.zip
+*.xpi
 
 *.min.js
